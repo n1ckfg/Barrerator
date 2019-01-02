@@ -1,4 +1,4 @@
-class Slice {
+class Bar {
   
   PVector p;
   PVector s;
@@ -7,7 +7,7 @@ class Slice {
   int timestamp = 0 ;
   int duration = 4000;
   
-  Slice(float px, float py, float sx, float sy, float _speed) {
+  Bar(float px, float py, float sx, float sy, float _speed) {
     p = new PVector(px, py);
     s = new PVector(sx, sy);
     speed = _speed + random(0, 0.1) - random(0, 0.1);
